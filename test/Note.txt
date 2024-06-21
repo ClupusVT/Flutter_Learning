@@ -1,0 +1,60 @@
+setx PATH "%PATH%;C:\src\flutter"
+C:\src\flutter\bin\flutter create first_app
+C:\src\flutter\bin\flutter run
+C:\src\flutter\bin\flutter create Quiz_app
+C:\src\flutter\bin\flutter pub add google_fonts
+C:\src\flutter\bin\flutter pub add uuid
+C:\src\flutter\bin\flutter pub add intl
+--------------------------------------------------
+Every Flutter Widget has a built-in lifecycle:
+A collection of methods that are automatically executed by Flutter (at certain points of time).
+
+There are three extremely important (stateful) widget lifecycle methods you should be aware of:
+
+initState(): Executed by Flutter when the StatefulWidget's State object is initialized
+
+build(): Executed by Flutter when the Widget is built for the first time AND after setState() was called
+
+dispose(): Executed by Flutter right before the Widget will be deleted (e.g., because it was displayed conditionally)
+
+You will encounter them all multiple times throughout the course - therefore you don't have to memorize them now and you will see them in action. It's still worth learning about them right now already.
+
+
+###Fist approach of changing state
+  Widget ?activeScreen; //? Meaning activeScreen could be null
+
+  void initState(){
+    activeScreen = StartScreen(switchScreen);
+    super.initState(); //Set initiate state for created object
+  }
+
+  void switchScreen(){//switchScreen does not take any  argument
+    setState(() {
+      activeScreen =const QuestionsScreen();
+    });
+  }
+ .........
+ child : activeScreen
+##############The second approach of changing state is using string and condition #####
+
+var activeScreen = 'start-screen';
+
+
+  void switchScreen(){//switchScreen does not take any  argument
+    setState(() {
+      activeScreen ='question-screen';
+    });
+  }
+
+child: activeScreen == 'start-screen' ? StartScreen(switchScreen)
+              : const QuestionsScreen()
+
+#############The 3rd way of set the state of widget depending on if condition#######
+Under build() function, create a variable widget then input to child component of container
+ Widget screenWidget = StartScreen(switchScreen);
+    if (activeScreen == 'question-screen'){
+      screenWidget = QuestionsScreen();
+    }
+
+  child: screenWidget
+

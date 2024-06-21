@@ -1,0 +1,189 @@
+<mxfile host="app.diagrams.net" modified="2024-03-22T17:34:38.338Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="FK8FeYAEKJBwxVAInNuC" version="24.0.7" type="device" pages="3">
+  <diagram name="Overview" id="vWD6Qz1nMBj_KMlxQC73">
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="N-ni3d2gWi83mI2-qtsB-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N-ni3d2gWi83mI2-qtsB-2" target="N-ni3d2gWi83mI2-qtsB-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N-ni3d2gWi83mI2-qtsB-2" value="Main" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N-ni3d2gWi83mI2-qtsB-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N-ni3d2gWi83mI2-qtsB-3" target="N-ni3d2gWi83mI2-qtsB-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N-ni3d2gWi83mI2-qtsB-3" value="Quiz.dart&lt;br&gt;(Scafold)&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N-ni3d2gWi83mI2-qtsB-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N-ni3d2gWi83mI2-qtsB-9" target="N-ni3d2gWi83mI2-qtsB-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N-ni3d2gWi83mI2-qtsB-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N-ni3d2gWi83mI2-qtsB-9" target="N-ni3d2gWi83mI2-qtsB-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N-ni3d2gWi83mI2-qtsB-9" value="void&amp;nbsp;&lt;span style=&quot;color: rgb(255, 198, 109); background-color: rgb(43, 43, 43); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;switchScreen&lt;/span&gt;&lt;div&gt;&lt;pre style=&quot;background-color:#2b2b2b;color:#a9b7c6;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;Widget &lt;span style=&quot;color:#9876aa;&quot;&gt;activeScreen&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="310" width="230" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="N-ni3d2gWi83mI2-qtsB-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N-ni3d2gWi83mI2-qtsB-11" target="N-ni3d2gWi83mI2-qtsB-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N-ni3d2gWi83mI2-qtsB-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N-ni3d2gWi83mI2-qtsB-11" target="N-ni3d2gWi83mI2-qtsB-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N-ni3d2gWi83mI2-qtsB-11" value="Class Stateless Widget" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N-ni3d2gWi83mI2-qtsB-13" value="Startpage" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="580" y="390" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N-ni3d2gWi83mI2-qtsB-14" value="Class StatefulWidget" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N-ni3d2gWi83mI2-qtsB-16" value="Quiz page" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="570" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N-ni3d2gWi83mI2-qtsB-19" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1.Widget&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;1.1 Column&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;1.1.1 Images&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;1.1.2 Tittle&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;1.1.3 Button&lt;/div&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;" style="whiteSpace=wrap;html=1;rounded=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="700" y="495" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="N-ni3d2gWi83mI2-qtsB-25" value="constructor&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- super key&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- void Function() Startquiz&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;-&amp;gt; this is actually &lt;b&gt;function &lt;/b&gt;argurment&amp;nbsp;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="930" y="495" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="UUgQ5KuBUqvDgGI-_rl5-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N-ni3d2gWi83mI2-qtsB-14" target="UUgQ5KuBUqvDgGI-_rl5-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="890" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UUgQ5KuBUqvDgGI-_rl5-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UUgQ5KuBUqvDgGI-_rl5-3" target="UUgQ5KuBUqvDgGI-_rl5-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UUgQ5KuBUqvDgGI-_rl5-3" value="Column&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Question title =&amp;nbsp; questions[n].textQuestion&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Answer list = question[n].answers&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="310" y="970" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UUgQ5KuBUqvDgGI-_rl5-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="UUgQ5KuBUqvDgGI-_rl5-5" target="UUgQ5KuBUqvDgGI-_rl5-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="20" y="790" />
+              <mxPoint x="20" y="1070" />
+              <mxPoint x="710" y="1070" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UUgQ5KuBUqvDgGI-_rl5-5" value="Class &lt;b&gt;QuestionQuiz &lt;/b&gt;define a list&lt;div&gt;of question(string) and answer (list)&lt;/div&gt;&lt;div&gt;Questionquiz func{&lt;/div&gt;&lt;div&gt;suffer&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="720" width="230" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="UUgQ5KuBUqvDgGI-_rl5-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UUgQ5KuBUqvDgGI-_rl5-6" target="UUgQ5KuBUqvDgGI-_rl5-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UUgQ5KuBUqvDgGI-_rl5-6" value="A list of material&amp;nbsp;&lt;div&gt;&lt;pre style=&quot;background-color:#2b2b2b;color:#a9b7c6;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;questions&lt;br/&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UUgQ5KuBUqvDgGI-_rl5-7" value="" style="shape=cross;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="820" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UUgQ5KuBUqvDgGI-_rl5-11" value="Answer Button" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UUgQ5KuBUqvDgGI-_rl5-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="UUgQ5KuBUqvDgGI-_rl5-16" target="UUgQ5KuBUqvDgGI-_rl5-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="655" y="1050" />
+              <mxPoint x="860" y="1050" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UUgQ5KuBUqvDgGI-_rl5-16" value="&lt;span style=&quot;text-align: left; text-wrap: wrap;&quot;&gt;question[n].map(answers)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="575" y="970" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UUgQ5KuBUqvDgGI-_rl5-21" value="Suffer.map(answers)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1020" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UUgQ5KuBUqvDgGI-_rl5-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UUgQ5KuBUqvDgGI-_rl5-24" target="UUgQ5KuBUqvDgGI-_rl5-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UUgQ5KuBUqvDgGI-_rl5-24" value="Action (variable){action}" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="NfvXMzokgSMRJaBUD7bZ" name="Functions as Argument">
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="P8nVjGmYjcwbIc7hGsl_-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P8nVjGmYjcwbIc7hGsl_-1" target="P8nVjGmYjcwbIc7hGsl_-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P8nVjGmYjcwbIc7hGsl_-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P8nVjGmYjcwbIc7hGsl_-1" target="P8nVjGmYjcwbIc7hGsl_-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P8nVjGmYjcwbIc7hGsl_-1" value="_Quizstate" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P8nVjGmYjcwbIc7hGsl_-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P8nVjGmYjcwbIc7hGsl_-2" target="P8nVjGmYjcwbIc7hGsl_-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P8nVjGmYjcwbIc7hGsl_-2" value="Start_page" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P8nVjGmYjcwbIc7hGsl_-4" value="Define a switchstate()" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P8nVjGmYjcwbIc7hGsl_-8" value="Call a switch state as argument" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="220" width="90" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="b-gO1U7VQPMtrrqA0Vxw" name="Using Inistate">
+    <mxGraphModel dx="1434" dy="1846" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="myouMCGNvh9Yem0n1URz-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Used for:&lt;/h1&gt;&lt;div&gt;Some object created on the same time so we need to initiate state resolve this issue&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="-710" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="myouMCGNvh9Yem0n1URz-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="myouMCGNvh9Yem0n1URz-2" target="myouMCGNvh9Yem0n1URz-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="myouMCGNvh9Yem0n1URz-2" value="Object()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="-570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="myouMCGNvh9Yem0n1URz-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="myouMCGNvh9Yem0n1URz-4" target="myouMCGNvh9Yem0n1URz-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="myouMCGNvh9Yem0n1URz-4" value="constructor function executer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="-430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="myouMCGNvh9Yem0n1URz-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="myouMCGNvh9Yem0n1URz-6" target="myouMCGNvh9Yem0n1URz-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="myouMCGNvh9Yem0n1URz-6" value="Stored in memory" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="-290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="myouMCGNvh9Yem0n1URz-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="myouMCGNvh9Yem0n1URz-8" target="myouMCGNvh9Yem0n1URz-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="myouMCGNvh9Yem0n1URz-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="myouMCGNvh9Yem0n1URz-8" target="myouMCGNvh9Yem0n1URz-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="myouMCGNvh9Yem0n1URz-8" value="flutter call initial state()" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="-150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="myouMCGNvh9Yem0n1URz-10" value="We can configure here ,before doing sth" style="whiteSpace=wrap;html=1;rounded=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="575" y="-195" width="145" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="myouMCGNvh9Yem0n1URz-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="myouMCGNvh9Yem0n1URz-12" target="myouMCGNvh9Yem0n1URz-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="myouMCGNvh9Yem0n1URz-12" value="setState()" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="-10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="myouMCGNvh9Yem0n1URz-14" value="Build()" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
